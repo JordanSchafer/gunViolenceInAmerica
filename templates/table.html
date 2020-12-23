@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data Table</title>
+    <!-- D3 JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+
+    <!--Datatables and jquary javascript-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.23/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.23/datatables.min.js"></script>
+  
+</head>
+
+
+<body>
+    <h1>Gun Violence in America</h1>
+    <br>
+    <hr>
+    <a href="./">Home</a> 
+    <a href="./per_mil">Per Million Residents</a>
+    <a href="./table">Data</a>
+    <br>
+    <hr>
+    <br>
+    <h2>Data Used for Graphs and Maps</h2>
+    <table id="myTable" class ="display" style="width:100%">
+        <thead>
+            <th>State</th>
+            <th>Killed</th>
+            <th>Injured</th>
+            <th>Killed per million Residents</th>
+            <th>Injured per million Residents</th>
+            <th>Year</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script type="text/javascript" src="../static/js/table.js"></script>
+</body>
+
+
+</html>
