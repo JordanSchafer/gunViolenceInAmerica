@@ -12,8 +12,10 @@ from sqlalchemy import create_engine, inspect, func
 app = Flask(__name__)
 CORS(app, support_credentials=True)
 
+database=os.environ.get("DATABASE_URL",'')
+
 #create engine 
-engine = create_engine(f'{DATABASE_URL}')
+engine = create_engine(f'{database}')
 #print(engine.table_names())
 #Reflect database into ORM class
 Base = automap_base()
