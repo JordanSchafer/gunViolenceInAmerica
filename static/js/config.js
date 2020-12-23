@@ -1,2 +1,2 @@
 // Leaflet API key
-//const API_KEY = "leaflet API Here!";
+const API_KEY = "process.env.API_KEY";
