@@ -146,7 +146,12 @@ this.myChart = new Chart(ctx, {
     },
 
     // Configuration options go here
-    options: {}
+    options: {
+      title:{
+        display:true,
+        text:'Gun Violence by State'
+      }
+    }
 });
 }
 
@@ -178,7 +183,12 @@ function updateChart(data){
     },
 
     // Configuration options go here
-    options: {}
+    options: {
+      title:{
+        display:true,
+        text:'Gun Violence by State'
+      }
+    }
 });
 }
 
