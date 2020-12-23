@@ -85,7 +85,7 @@ L.control.layers(baseMaps, null).addTo(map);
     // Loop through our intervals and generate a label with a colored square for each interval.
     for (var i = 0; i < grades.length; i++) {
       div.innerHTML += "<i style='background: "
-        + getColor_killed(grades[i])
+        + getColor(grades[i])
         + "'></i> "
         + grades[i]
         + (grades[i + 1] ? "&ndash;" + grades[i + 1] + "<br>" : "+");
