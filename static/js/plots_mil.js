@@ -1,4 +1,4 @@
-d3.json('http://127.0.0.1:5000/data.json',(error,data) =>{
+d3.json('https://gvinusa.herokuapp.com/data.json',(error,data) =>{
   //set arrays to hold data
   //console.log(data);
   data_2014=[];

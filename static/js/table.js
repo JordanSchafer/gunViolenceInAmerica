@@ -26,7 +26,7 @@ function buildTable(data) {
 
 
 const tbody=d3.select("tbody");
-d3.json('http://127.0.0.1:5000/data.json',(error,data) =>{
+d3.json('https://gvinusa.herokuapp.com/data.json',(error,data) =>{
     buildTable(data);
 
  $(document).ready(function(){
