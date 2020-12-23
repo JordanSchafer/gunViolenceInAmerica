@@ -13,9 +13,8 @@ app = Flask(__name__)
 CORS(app, support_credentials=True)
 
 #create engine 
-connection_string = "postgres:Pickles1!@localhost:5432/GV_DB"
-engine = create_engine(f'postgresql://{connection_string}')
-print(engine.table_names())
+engine = create_engine(f'postgres://tufccuajymkqad:7184d008508f162241f7f5e0168baefa61fbaf72bf4a78f9c5f5e645f127f901@ec2-54-159-107-189.compute-1.amazonaws.com:5432/d4rnujgekjttnl')
+#print(engine.table_names())
 #Reflect database into ORM class
 Base = automap_base()
 Base.prepare(engine, reflect=True)
