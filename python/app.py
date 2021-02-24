@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app, support_credentials=True)
 
 #create engine 
-connection_string = "postgres:Pickles1!@localhost:5432/GV_DB"
+connection_string = f"postgres:{password}@localhost:5432/GV_DB"
 engine = create_engine(f'postgresql://{connection_string}')
 
 #Reflect database into ORM class
