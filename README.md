@@ -5,7 +5,9 @@ The goal of this project was to preform ETL process on a data set, find insightf
 ## Datasets
 
 [Gun violence data](https://www.kaggle.com/jameslko/gun-violence-data) from kaggle
+
 [US State Population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-total.html) from the US Census
+
 [State geojson data](https://leafletjs.com/examples/choropleth/) from leafletjs
 
 ## Extract Transform Load
